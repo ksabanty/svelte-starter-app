@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Nested from "./Nested.svelte";
+  let name = "Svelte";
+  // let src = "/itysl1.PNG";
+</script>
+
+<!-- <img {src} alt="itysl" -->
+
+<h1>Hello, {name.toUpperCase()}!</h1>
+<Nested />
+
+<style>
+  h1 {
+    color: goldenrod;
+    font-family: "Comic Sans MS";
+  }
+</style>
